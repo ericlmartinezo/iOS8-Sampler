@@ -7,6 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0029ae013f364fca2df99e2b /* mh2_09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A819B2F2ED00290399 /* mh2_09.wav */; };
+		02411ef2d68685a96a110a3d /* HealthKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7D419A199D400E0C6EB /* HealthKitViewController.xib */; };
+		03d74c80dd51b21e54ff4bf2 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D0CAB19C9A122009E3448 /* HomeKit.framework */; };
+		063b9a87a3d0f5bd0f903059 /* AnamorphicStretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95411019A20CF8008C6F07 /* AnamorphicStretch.m */; };
+		0e99dbdaae2d0d8cd86a8c6b /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB959AC19A38478008EE97F /* AlertViewController.xib */; };
+		0f6615db4b2fe5de9303d4f6 /* HealthKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7D319A199D400E0C6EB /* HealthKitViewController.m */; };
+		1277074798db938e838dcfb4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F919A175F4006BC800 /* AppDelegate.m */; };
+		138b9bcb5009ad70954ca362 /* AccordionFoldTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9540F119A1C9EA008C6F07 /* AccordionFoldTransitionViewController.xib */; };
+		1fa2e6a5241a0867bd4cd1a1 /* PopoverDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB2C5F419C5426F0001BC6A /* PopoverDetailViewController.xib */; };
+		2102ce74e1912a5a8ee2ee86 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF919C9CF0D009E3448 /* wood.png */; };
+		26566bda98bc6fff894757bf /* SeparatorEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6099A1A24A0DC0095796F /* SeparatorEffectViewController.m */; };
+		2a166872f7b95b32b41ab3c6 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = e4bda8bcc5ddd47391f0a5cd /* calabash.framework */; };
+		2a4bdbe728bcdcfa9bd4b048 /* WebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC232B19A2181800218191 /* WebKitViewController.m */; };
+		2b512d42b1287740d7000d49 /* MonsterImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7EF19A1B8E900E0C6EB /* MonsterImages.xcassets */; };
+		2d8b5b2bf19c631379c1d5a5 /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2C5ED19C5418F0001BC6A /* PopoverViewController.m */; };
+		2da83f9a32b3a191bae48332 /* bgm8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A319B2F2ED00290399 /* bgm8.wav */; };
+		2e7d6e42a38bd462088ba544 /* RowActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60FE6B1A2495EF006D76D9 /* RowActionViewController.xib */; };
+		2f72257c0109fbc10a45b3a2 /* PopoverDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2C5F319C5426F0001BC6A /* PopoverDetailViewController.m */; };
+		3045e06f17eecd5828312073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA4BA0119A175F5006BC800 /* Main.storyboard */; };
+		321e4201d4eb08fd865e4c47 /* AltimeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4FB83819D2442F00375981 /* AltimeterViewController.xib */; };
+		3242842688ed3e32742f4149 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ecf6a5589a4ca36534247aa7 /* CFNetwork.framework */; };
+		347b7f6ce42bb01d6a5e2f7f /* UIView+TTMGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9540E919A1C95C008C6F07 /* UIView+TTMGeometry.m */; };
+		3ad3db7ee52cc71117801418 /* TTMMetalRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CBA19C9A91E009E3448 /* TTMMetalRenderer.mm */; };
+		3c77e8d7af593d085250adfe /* AVKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E3B19BDEFC2007C7315 /* AVKitViewController.xib */; };
+		3e58a2d27bfcd41c7e051606 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
+		4520312ae05d3f1452fd057e /* CommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4BA2D19A191C1006BC800 /* CommonButton.m */; };
+		46957598024f0234996d9c0d /* SwapRedAndGreen.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEF19C99A8A009E3448 /* SwapRedAndGreen.cikernel */; };
+		4697e3aaa134e5230d6ede4e /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CDE19C9B1CF009E3448 /* AAPLTransforms.mm */; };
+		471d76e40086e5a1e43da25c /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959E719A398F4008EE97F /* AlertViewController.m */; };
+		4c13c57446cc0fe9520276a1 /* SamplerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CFE19C9CF7D009E3448 /* SamplerIcon.png */; };
+		4c896cf9511dfe14c1270b9b /* SceneKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF119C9CA44009E3448 /* SceneKitViewController.xib */; };
+		5175d1257a3e348c51fb48f3 /* AAPLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CC619C9B13E009E3448 /* AAPLView.mm */; };
+		517ed3dbae6be89300b9a036 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8D0CAE19C9A161009E3448 /* HealthKit.framework */; };
+		52a2e4da36b1324acaa95232 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9FC19A175F4006BC800 /* MasterViewController.m */; };
+		57a02fc16b955915b9dfbc53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7ED19A1B8D700E0C6EB /* Images.xcassets */; };
+		5844a83adafa4939528f883e /* bgm_5.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A619B2F2ED00290399 /* bgm_5.aif */; };
+		58b74925fda04088fc7c2a2a /* SceneKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CF019C9CA44009E3448 /* SceneKitViewController.m */; };
+		59c537cf0aa3784a902175b2 /* MotionBlurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC233719A22CA500218191 /* MotionBlurViewController.xib */; };
+		5a03e49afd2941503afd36fe /* RubyAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD104BD19CB99BA00C30A3D /* RubyAnnotationViewController.m */; };
+		5a3dc114da859b159fd23814 /* SeparatorEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC6099B1A24A0DC0095796F /* SeparatorEffectViewController.xib */; };
+		617cdeb85432fd9282289525 /* VisualEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC233C19A230E300218191 /* VisualEffectsViewController.m */; };
+		6e0df2b67c4697f4f7322aaf /* MirrorX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410D19A2074A008C6F07 /* MirrorX.m */; };
+		6e35eb50873d47395e8af765 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB2C5EE19C5418F0001BC6A /* PopoverViewController.xib */; };
+		70d2331ebe6758defbe98f4f /* mh2_03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A719B2F2ED00290399 /* mh2_03.wav */; };
+		71ae7ad4b3e040e924ab55cb /* VisualEffectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC233D19A230E300218191 /* VisualEffectsViewController.xib */; };
+		726ef3507d495233c9c7abb2 /* AAPLTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CCA19C9B13E009E3448 /* AAPLTransforms.mm */; };
+		74b92169a277573dffc7fd14 /* PedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2E19BDDD69007C7315 /* PedometerViewController.m */; };
+		76501674447374058c17a1d5 /* HistogramViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7BF19A1999600E0C6EB /* HistogramViewController.xib */; };
+		783d88c737a7b1a4798a1d86 /* RowActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A60FE6A1A2495EF006D76D9 /* RowActionViewController.m */; };
+		78e1958df6392ec9a9bfbee4 /* TTMAudioUnitEffectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244019BCD22E0005B633 /* TTMAudioUnitEffectHelper.m */; };
+		78fbcb49c00cc6078fd98954 /* SwapRedAndGreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9540FC19A1F282008C6F07 /* SwapRedAndGreen.m */; };
+		7e561cd6b0d65e3e8e74924b /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7D919A19A0300E0C6EB /* TouchIDViewController.m */; };
+		7e7e291d6ee412cbfa2cec32 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B219A1981E00E0C6EB /* SVProgressHUD.bundle */; };
+		7f79b029fe3e52fd33dc120a /* HistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7BE19A1999600E0C6EB /* HistogramViewController.m */; };
+		7fddb047dc00d99495b0d109 /* UIAlertController+TTMAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB959B119A38D83008EE97F /* UIAlertController+TTMAppearance.m */; };
+		806b59291647fc25d71fa09a /* MetalUniformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0CB419C9A5BA009E3448 /* MetalUniformViewController.xib */; };
+		81931b88636bc198b6ea5a40 /* ImageFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7C119A1999600E0C6EB /* ImageFiltersViewController.m */; };
+		83e1ae1c82f8a10860287817 /* bgm_2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A419B2F2ED00290399 /* bgm_2.aif */; };
 		8A308E2419BDADB9007C7315 /* UserNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2219BDADB9007C7315 /* UserNotificationViewController.m */; };
 		8A308E2519BDADB9007C7315 /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
 		8A308E2A19BDD98A007C7315 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2819BDD98A007C7315 /* PhotosViewController.m */; };
@@ -207,6 +265,46 @@
 		8AE7B7F019A1B8E900E0C6EB /* MonsterImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7EF19A1B8E900E0C6EB /* MonsterImages.xcassets */; };
 		8AE7B7F419A1C4F000E0C6EB /* CodeGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F219A1C4F000E0C6EB /* CodeGeneratorViewController.m */; };
 		8AE7B7F519A1C4F000E0C6EB /* CodeGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F319A1C4F000E0C6EB /* CodeGeneratorViewController.xib */; };
+		8e0c2c8a8ebda83b886ef9cf /* AudioEngineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB1C2D119AAD0A300B847D0 /* AudioEngineViewController.m */; };
+		8e454e1eb31edcd3e61f636b /* MetalBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BA65B19C96F790015DEFB /* MetalBasicViewController.xib */; };
+		8eba368a592bd118b8566d82 /* AccordionFoldTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9540F019A1C9EA008C6F07 /* AccordionFoldTransitionViewController.m */; };
+		96293f720cc25ccdfe112ea0 /* TTMHealthKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244319BCD3020005B633 /* TTMHealthKitHelper.m */; };
+		9652a5bf926a243033d0748b /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
+		9b7506991bed4b4eb8ebed08 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B419A1981E00E0C6EB /* SVProgressHUD.m */; };
+		a26a1cebb012112e89c10131 /* ImageFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7C219A1999600E0C6EB /* ImageFiltersViewController.xib */; };
+		a7b71fb6bf99e2d492551688 /* WebKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC232C19A2181800218191 /* WebKitViewController.xib */; };
+		afce9bf5cfe6845594e716a8 /* AddedFonts8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D244F19BCFD030005B633 /* AddedFonts8.plist */; };
+		b1cedc2f99f10c09c246d8db /* BrowseCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0D0319C9D6B8009E3448 /* BrowseCodeViewController.xib */; };
+		b632cb27fb9b864d028a2b4c /* RubyAnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD104BE19CB99BA00C30A3D /* RubyAnnotationViewController.xib */; };
+		b75a177ecc6ef3276eaf705e /* PedometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2F19BDDD69007C7315 /* PedometerViewController.xib */; };
+		bef3e095672dae4b9d170b1d /* AAPLPlasmaParams.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CD719C9B1CF009E3448 /* AAPLPlasmaParams.mm */; };
+		bf5a21a4549a9c6d3330f64d /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E2819BDD98A007C7315 /* PhotosViewController.m */; };
+		c190289dcc6063379be4e233 /* AnamorphicStretch.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEC19C99A8A009E3448 /* AnamorphicStretch.cikernel */; };
+		c360d7f73e9594b135ff2e12 /* Vignette.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BF019C99A8A009E3448 /* Vignette.cikernel */; };
+		c49a39e4085c1e6f24eb1878 /* MirrorX.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BED19C99A8A009E3448 /* MirrorX.cikernel */; };
+		c4a7e24ca3bc60577b9a0b6c /* AVKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A308E3A19BDEFC2007C7315 /* AVKitViewController.m */; };
+		c842e00512a3386087a6b118 /* MetalUniformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0CB319C9A5BA009E3448 /* MetalUniformViewController.m */; };
+		cb73e3fcc477c533ca9abece /* TTMHistogramHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D243D19BCD21C0005B633 /* TTMHistogramHelper.m */; };
+		cc4dda83129fbea03ad5248d /* CustomFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7E719A1A57F00E0C6EB /* CustomFiltersViewController.m */; };
+		cce9b9afafc4c2752aba6dd2 /* FontsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D244B19BCFC7B0005B633 /* FontsViewController.xib */; };
+		cda86c839f8b2249436bb917 /* SourceOver.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D0BEE19C99A8A009E3448 /* SourceOver.cikernel */; };
+		cea3509ce95a984c976254ea /* AudioEngineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB1C2D219AAD0A300B847D0 /* AudioEngineViewController.xib */; };
+		cf06109e246407e4824d5637 /* FontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244A19BCFC7B0005B633 /* FontsViewController.m */; };
+		cfcfc2bd943caa13e53538b7 /* Vignette.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410119A1F5C8008C6F07 /* Vignette.m */; };
+		d81eb2ddf60b43d7ff9aaec2 /* bgm_3.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A9357A519B2F2ED00290399 /* bgm_3.aif */; };
+		e1442f25c7471ea9ce6229d3 /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7DA19A19A0300E0C6EB /* TouchIDViewController.xib */; };
+		e1caf010e693eae53ea6df06 /* BrowseCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D0D0219C9D6B8009E3448 /* BrowseCodeViewController.m */; };
+		e3a94c7263b5d3c6548a4485 /* entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D244519BCD85F0005B633 /* entitlements.plist */; };
+		e3d3ac9db33014b836cd534c /* AltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4FB83719D2442F00375981 /* AltimeterViewController.m */; };
+		e60537ff710f3062cb0f39e9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4B9F619A175F4006BC800 /* main.m */; };
+		ebc3a31fb25301c7a4b2b624 /* MotionBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC233619A22CA500218191 /* MotionBlurViewController.m */; };
+		ebedbaac365e61daecff6366 /* CodeGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F319A1C4F000E0C6EB /* CodeGeneratorViewController.xib */; };
+		ec4350b36497155715e350b4 /* RubyAnnotationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBB65B19CBA48800F44D89 /* RubyAnnotationLabel.m */; };
+		edab844c16aa94d856e8f16e /* CodeGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7F219A1C4F000E0C6EB /* CodeGeneratorViewController.m */; };
+		f1b865c5d62a288752261102 /* SourceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95410619A20563008C6F07 /* SourceOver.m */; };
+		f20d550289532a6fe6cd0d14 /* CustomFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE7B7E819A1A57F00E0C6EB /* CustomFiltersViewController.xib */; };
+		f2830e35eb9fdcfef85c18d2 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2919BDD98A007C7315 /* PhotosViewController.xib */; };
+		f2ae1c13e1cc0de678422d15 /* MetalBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BA65A19C96F790015DEFB /* MetalBasicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -385,6 +483,9 @@
 		8AE7B7F119A1C4F000E0C6EB /* CodeGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeGeneratorViewController.h; sourceTree = "<group>"; };
 		8AE7B7F219A1C4F000E0C6EB /* CodeGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeGeneratorViewController.m; sourceTree = "<group>"; };
 		8AE7B7F319A1C4F000E0C6EB /* CodeGeneratorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CodeGeneratorViewController.xib; sourceTree = "<group>"; };
+		928F95031A396C290072E0EB /* iOS8SamplerSimulator-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8SamplerSimulator-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		e4bda8bcc5ddd47391f0a5cd /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		ecf6a5589a4ca36534247aa7 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,6 +512,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		b3f2dda12746bc95d7c2f269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517ed3dbae6be89300b9a036 /* HealthKit.framework in Frameworks */,
+				03d74c80dd51b21e54ff4bf2 /* HomeKit.framework in Frameworks */,
+				3242842688ed3e32742f4149 /* CFNetwork.framework in Frameworks */,
+				2a166872f7b95b32b41ab3c6 /* calabash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +607,8 @@
 				8A40F6B719CA528A005F34A3 /* Metal.framework */,
 				8A8D0CAE19C9A161009E3448 /* HealthKit.framework */,
 				8A8D0CAB19C9A122009E3448 /* HomeKit.framework */,
+				ecf6a5589a4ca36534247aa7 /* CFNetwork.framework */,
+				e4bda8bcc5ddd47391f0a5cd /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -675,6 +789,7 @@
 				8AA4B9F119A175F4006BC800 /* iOS8Sampler.app */,
 				8AA4BA0A19A175F5006BC800 /* iOS8SamplerTests.xctest */,
 				8A8D0CA919C9A034009E3448 /* iOS8SamplerSimulator.app */,
+				928F95031A396C290072E0EB /* iOS8SamplerSimulator-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -975,6 +1090,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		23fdd576585a597671f54080 /* iOS8SamplerSimulator-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4e3adf704147b3e04973e150 /* Build configuration list for PBXNativeTarget "iOS8SamplerSimulator-cal" */;
+			buildPhases = (
+				9796f4e1dd0cf596c2e932e5 /* Sources */,
+				b3f2dda12746bc95d7c2f269 /* Frameworks */,
+				7274468b48c60452d65f6f99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS8SamplerSimulator-cal";
+			productName = "iOS8Sampler-cal";
+			productReference = 928F95031A396C290072E0EB /* iOS8SamplerSimulator-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8A8D0C5219C9A034009E3448 /* iOS8SamplerSimulator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A8D0CA619C9A034009E3448 /* Build configuration list for PBXNativeTarget "iOS8SamplerSimulator" */;
@@ -1075,11 +1207,65 @@
 				8AA4B9F019A175F4006BC800 /* iOS8Sampler */,
 				8A8D0C5219C9A034009E3448 /* iOS8SamplerSimulator */,
 				8AA4BA0919A175F5006BC800 /* iOS8SamplerTests */,
+				23fdd576585a597671f54080 /* iOS8SamplerSimulator-cal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7274468b48c60452d65f6f99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806b59291647fc25d71fa09a /* MetalUniformViewController.xib in Resources */,
+				c360d7f73e9594b135ff2e12 /* Vignette.cikernel in Resources */,
+				321e4201d4eb08fd865e4c47 /* AltimeterViewController.xib in Resources */,
+				b75a177ecc6ef3276eaf705e /* PedometerViewController.xib in Resources */,
+				c190289dcc6063379be4e233 /* AnamorphicStretch.cikernel in Resources */,
+				c49a39e4085c1e6f24eb1878 /* MirrorX.cikernel in Resources */,
+				57a02fc16b955915b9dfbc53 /* Images.xcassets in Resources */,
+				cce9b9afafc4c2752aba6dd2 /* FontsViewController.xib in Resources */,
+				ebedbaac365e61daecff6366 /* CodeGeneratorViewController.xib in Resources */,
+				3045e06f17eecd5828312073 /* Main.storyboard in Resources */,
+				138b9bcb5009ad70954ca362 /* AccordionFoldTransitionViewController.xib in Resources */,
+				2102ce74e1912a5a8ee2ee86 /* wood.png in Resources */,
+				1fa2e6a5241a0867bd4cd1a1 /* PopoverDetailViewController.xib in Resources */,
+				3c77e8d7af593d085250adfe /* AVKitViewController.xib in Resources */,
+				59c537cf0aa3784a902175b2 /* MotionBlurViewController.xib in Resources */,
+				e1442f25c7471ea9ce6229d3 /* TouchIDViewController.xib in Resources */,
+				f20d550289532a6fe6cd0d14 /* CustomFiltersViewController.xib in Resources */,
+				afce9bf5cfe6845594e716a8 /* AddedFonts8.plist in Resources */,
+				a26a1cebb012112e89c10131 /* ImageFiltersViewController.xib in Resources */,
+				f2830e35eb9fdcfef85c18d2 /* PhotosViewController.xib in Resources */,
+				6e35eb50873d47395e8af765 /* PopoverViewController.xib in Resources */,
+				5a3dc114da859b159fd23814 /* SeparatorEffectViewController.xib in Resources */,
+				5844a83adafa4939528f883e /* bgm_5.aif in Resources */,
+				cda86c839f8b2249436bb917 /* SourceOver.cikernel in Resources */,
+				d81eb2ddf60b43d7ff9aaec2 /* bgm_3.aif in Resources */,
+				76501674447374058c17a1d5 /* HistogramViewController.xib in Resources */,
+				83e1ae1c82f8a10860287817 /* bgm_2.aif in Resources */,
+				2b512d42b1287740d7000d49 /* MonsterImages.xcassets in Resources */,
+				02411ef2d68685a96a110a3d /* HealthKitViewController.xib in Resources */,
+				4c896cf9511dfe14c1270b9b /* SceneKitViewController.xib in Resources */,
+				9652a5bf926a243033d0748b /* UserNotificationViewController.xib in Resources */,
+				b1cedc2f99f10c09c246d8db /* BrowseCodeViewController.xib in Resources */,
+				e3a94c7263b5d3c6548a4485 /* entitlements.plist in Resources */,
+				2e7d6e42a38bd462088ba544 /* RowActionViewController.xib in Resources */,
+				4c13c57446cc0fe9520276a1 /* SamplerIcon.png in Resources */,
+				cea3509ce95a984c976254ea /* AudioEngineViewController.xib in Resources */,
+				a7b71fb6bf99e2d492551688 /* WebKitViewController.xib in Resources */,
+				2da83f9a32b3a191bae48332 /* bgm8.wav in Resources */,
+				46957598024f0234996d9c0d /* SwapRedAndGreen.cikernel in Resources */,
+				7e7e291d6ee412cbfa2cec32 /* SVProgressHUD.bundle in Resources */,
+				b632cb27fb9b864d028a2b4c /* RubyAnnotationViewController.xib in Resources */,
+				0029ae013f364fca2df99e2b /* mh2_09.wav in Resources */,
+				8e454e1eb31edcd3e61f636b /* MetalBasicViewController.xib in Resources */,
+				71ae7ad4b3e040e924ab55cb /* VisualEffectsViewController.xib in Resources */,
+				0e99dbdaae2d0d8cd86a8c6b /* AlertViewController.xib in Resources */,
+				70d2331ebe6758defbe98f4f /* mh2_03.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A8D0C7E19C9A034009E3448 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1320,6 +1506,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9796f4e1dd0cf596c2e932e5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2a4bdbe728bcdcfa9bd4b048 /* WebKitViewController.m in Sources */,
+				0f6615db4b2fe5de9303d4f6 /* HealthKitViewController.m in Sources */,
+				cc4dda83129fbea03ad5248d /* CustomFiltersViewController.m in Sources */,
+				783d88c737a7b1a4798a1d86 /* RowActionViewController.m in Sources */,
+				347b7f6ce42bb01d6a5e2f7f /* UIView+TTMGeometry.m in Sources */,
+				96293f720cc25ccdfe112ea0 /* TTMHealthKitHelper.m in Sources */,
+				9b7506991bed4b4eb8ebed08 /* SVProgressHUD.m in Sources */,
+				81931b88636bc198b6ea5a40 /* ImageFiltersViewController.m in Sources */,
+				cfcfc2bd943caa13e53538b7 /* Vignette.m in Sources */,
+				1277074798db938e838dcfb4 /* AppDelegate.m in Sources */,
+				78fbcb49c00cc6078fd98954 /* SwapRedAndGreen.m in Sources */,
+				3ad3db7ee52cc71117801418 /* TTMMetalRenderer.mm in Sources */,
+				5175d1257a3e348c51fb48f3 /* AAPLView.mm in Sources */,
+				52a2e4da36b1324acaa95232 /* MasterViewController.m in Sources */,
+				726ef3507d495233c9c7abb2 /* AAPLTransforms.mm in Sources */,
+				ebc3a31fb25301c7a4b2b624 /* MotionBlurViewController.m in Sources */,
+				2d8b5b2bf19c631379c1d5a5 /* PopoverViewController.m in Sources */,
+				c842e00512a3386087a6b118 /* MetalUniformViewController.m in Sources */,
+				bf5a21a4549a9c6d3330f64d /* PhotosViewController.m in Sources */,
+				e1caf010e693eae53ea6df06 /* BrowseCodeViewController.m in Sources */,
+				c4a7e24ca3bc60577b9a0b6c /* AVKitViewController.m in Sources */,
+				6e0df2b67c4697f4f7322aaf /* MirrorX.m in Sources */,
+				063b9a87a3d0f5bd0f903059 /* AnamorphicStretch.m in Sources */,
+				cf06109e246407e4824d5637 /* FontsViewController.m in Sources */,
+				e60537ff710f3062cb0f39e9 /* main.m in Sources */,
+				7f79b029fe3e52fd33dc120a /* HistogramViewController.m in Sources */,
+				8eba368a592bd118b8566d82 /* AccordionFoldTransitionViewController.m in Sources */,
+				e3d3ac9db33014b836cd534c /* AltimeterViewController.m in Sources */,
+				7e561cd6b0d65e3e8e74924b /* TouchIDViewController.m in Sources */,
+				cb73e3fcc477c533ca9abece /* TTMHistogramHelper.m in Sources */,
+				3e58a2d27bfcd41c7e051606 /* UserNotificationViewController.m in Sources */,
+				4520312ae05d3f1452fd057e /* CommonButton.m in Sources */,
+				2f72257c0109fbc10a45b3a2 /* PopoverDetailViewController.m in Sources */,
+				617cdeb85432fd9282289525 /* VisualEffectsViewController.m in Sources */,
+				4697e3aaa134e5230d6ede4e /* AAPLTransforms.mm in Sources */,
+				ec4350b36497155715e350b4 /* RubyAnnotationLabel.m in Sources */,
+				78e1958df6392ec9a9bfbee4 /* TTMAudioUnitEffectHelper.m in Sources */,
+				f1b865c5d62a288752261102 /* SourceOver.m in Sources */,
+				f2ae1c13e1cc0de678422d15 /* MetalBasicViewController.m in Sources */,
+				edab844c16aa94d856e8f16e /* CodeGeneratorViewController.m in Sources */,
+				58b74925fda04088fc7c2a2a /* SceneKitViewController.m in Sources */,
+				7fddb047dc00d99495b0d109 /* UIAlertController+TTMAppearance.m in Sources */,
+				5a03e49afd2941503afd36fe /* RubyAnnotationViewController.m in Sources */,
+				26566bda98bc6fff894757bf /* SeparatorEffectViewController.m in Sources */,
+				74b92169a277573dffc7fd14 /* PedometerViewController.m in Sources */,
+				8e0c2c8a8ebda83b886ef9cf /* AudioEngineViewController.m in Sources */,
+				471d76e40086e5a1e43da25c /* AlertViewController.m in Sources */,
+				bef3e095672dae4b9d170b1d /* AAPLPlasmaParams.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1342,6 +1583,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		25f65f605954e88e267aa057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "iOS8SamplerSimulator-cal";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2bdac57c3e26be5eb4a063c5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "iOS8SamplerSimulator-cal";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS8Sampler/iOS8Sampler-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
 		8A8D0CA719C9A034009E3448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1517,6 +1809,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4e3adf704147b3e04973e150 /* Build configuration list for PBXNativeTarget "iOS8SamplerSimulator-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2bdac57c3e26be5eb4a063c5 /* Debug */,
+				25f65f605954e88e267aa057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8A8D0CA619C9A034009E3448 /* Build configuration list for PBXNativeTarget "iOS8SamplerSimulator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
