@@ -5,6 +5,7 @@ Feature: Running a test
 
 Scenario: Example steps
   Given I am on the Welcome Screen
+  And I see #Audio Effects #New Image Filters #CustomFilters #Metal Basic #Metal Uniform Stream #SceneKit #HealthKit #Touch ID #VisualEffects
   Then I scroll up
   Then I scroll down
   Then I press "Audio Effects"
