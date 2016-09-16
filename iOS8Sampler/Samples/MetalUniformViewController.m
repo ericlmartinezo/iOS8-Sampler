@@ -44,7 +44,8 @@
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
     label.numberOfLines = 0;
-    label.text = @"Metal related features CANNOT \nbe available on simulators.";
+//  label.text = @" Metal related features CANNOT \nbe available on simulators.";
+    label.text = @" PLACEHOLDER TEXT 2.";
     [label sizeToFit];
     label.center = self.view.center;
     [self.view addSubview:label];

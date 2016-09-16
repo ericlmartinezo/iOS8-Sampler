@@ -1,0 +1,58 @@
+server_version['version']
+server_version['version']
+exit
+query("*")
+scroll("tableView")
+scroll("tableView", :up)
+scroll("UINavigationItemView", :up)
+scroll("UILayoutContainerView", :up)
+scroll("tableView", :up)
+scroll("tableView", :up)
+scroll("scrollView", :up)
+scroll("scrollView", :up)
+scroll("scrollView", :down)
+exit
+wait_poll(:until_exists => "label text:'Popover'", :timeout => 20) do
+scroll("tableView", :down)
+scroll("tableView", :down)
+scroll("tableView", :down)
+wait_poll(:until_exists => "label text:'Popover'", :timeout => 20) do
+scroll("tableView", :down)
+exit
+wait_poll(:until_exists => "label text:'Popover'", :timeout => 1) do
+scroll("tableView", :down)
+wait_poll(:until_exists => "label text:'Popover'", :timeout => 1) do
+scroll("tableView", :down)
+end
+wait_poll(:until_exists => "label text:'Popover'", :timeout => 1) do
+scroll("tableView", :down)
+end
+wait_poll(:until_exists => "label text:'Popover'", :timeout => 1) do
+scroll("tableView", :down)
+end
+query("*")
+query("Popover")
+touch("Popover")
+touch(* "Popover")
+touch(*: "Popover")
+press("Popover")
+touch("view market:'Popover'")
+check_element_exits("view market:'#{Popover}'")
+check_element_exits("view market:'Popover'")
+touch("UITableViewLabel market:'Popover'")
+touch("text market:'Popover'")
+see("text market:'Popover'")
+see("Popover")
+touch("Popover")
+press("Popover")
+view("Popover")
+wait_poll(:until_exists => "label text:'WebKit'", :timeout => 1) do
+scroll("tableView", :down)
+end
+wait_poll(:until_exists => "label text:'WebKit'", :timeout => 1) do
+scroll("tableView", :down)
+end
+wait_poll(:until_exists => "label text:'Popover'", :timeout => 1) do
+scroll("tableView", :down)
+end
+exit

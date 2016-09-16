@@ -1592,7 +1592,8 @@
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Selenium-gwcfgyjpvkgfajdjdurfjuopilih/Build/Products/Debug",
 				);
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
@@ -1617,7 +1618,8 @@
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Selenium-gwcfgyjpvkgfajdjdurfjuopilih/Build/Products/Debug",
 				);
 				GCC_PREFIX_HEADER = iOS8Sampler/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/iOS8Sampler/Info.plist";
