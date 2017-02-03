@@ -34,6 +34,20 @@
                ReferencedContainer = "container:iOS8Sampler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92061F601E446B290070FD04"
+               BuildableName = "iOS8SamplerUITests.xctest"
+               BlueprintName = "iOS8SamplerUITests"
+               ReferencedContainer = "container:iOS8Sampler.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "8AA4BA0919A175F5006BC800"
                BuildableName = "iOS8SamplerTests.xctest"
                BlueprintName = "iOS8SamplerTests"
+               ReferencedContainer = "container:iOS8Sampler.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92061F601E446B290070FD04"
+               BuildableName = "iOS8SamplerUITests.xctest"
+               BlueprintName = "iOS8SamplerUITests"
                ReferencedContainer = "container:iOS8Sampler.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -93,6 +117,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8AA4B9F019A175F4006BC800"
+            BuildableName = "iOS8Sampler.app"
+            BlueprintName = "iOS8Sampler"
+            ReferencedContainer = "container:iOS8Sampler.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
