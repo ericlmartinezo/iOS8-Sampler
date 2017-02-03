@@ -5,11 +5,6 @@ Feature: Running a test
 
 Scenario: Example steps 1
   Given I am on the Welcome Screen
-  And I see #Audio Effects #New Image Filters #CustomFilters #Metal Basic #Metal Uniform Stream #SceneKit #HealthKit #Touch ID #VisualEffects
-#  Then I scroll down
-#  Then I scroll down
-#  Then I scroll up 
-#  Then I scroll up
   Then I press "New Image Filters"
   Then I scroll up
   Then I scroll down

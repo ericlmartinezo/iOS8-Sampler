@@ -10,17 +10,18 @@ Given /^I am on the Welcome Screen$/ do
 
 end
 
-Given(/^I see \#Audio Effects \#New Image Filters \#CustomFilters #Metal Basic \#Metal Uniform Stream \#SceneKit \#HealthKit \#Touch ID \#VisualEffects$/) do
-	element_exists("view")
-	sleep(STEP_PAUSE)
+# And /^I see ui elements$/ do
+# 	element_exists(marked: "'Audio Effects' \#New Image Filters \#CustomFilters \#Metal Basic \#Metal Uniform Stream \#SceneKit \#HealthKit \#Touch ID \#VisualEffects$/")
+# 	sleep(STEP_PAUSE)
 
-end
+# end
 
 #Step definition down to see object
 Then(/^I should scroll down to see "([^"]*)"$/) do |arg|
 wait_poll(:until_exists => "label text:'Popover'", :timeout => 4) do
 scroll("tableView", :down)
 end
+
 #@current_page.scroll(arg)
 #def scroll(content)
 #	    scroll("scrollView", :down)
