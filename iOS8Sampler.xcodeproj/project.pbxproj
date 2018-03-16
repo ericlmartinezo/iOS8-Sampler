@@ -269,6 +269,9 @@
 		8e454e1eb31edcd3e61f636b /* MetalBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9BA65B19C96F790015DEFB /* MetalBasicViewController.xib */; };
 		8eba368a592bd118b8566d82 /* AccordionFoldTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9540F019A1C9EA008C6F07 /* AccordionFoldTransitionViewController.m */; };
 		92061F641E446B290070FD04 /* iOS8SamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92061F631E446B290070FD04 /* iOS8SamplerUITests.swift */; };
+		923AFAB31F567DAD0059E210 /* MainMenuOptionsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923AFAB21F567DAD0059E210 /* MainMenuOptionsHelper.swift */; };
+		923AFAB51F57C4570059E210 /* TestWaitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923AFAB41F57C4570059E210 /* TestWaitHelper.swift */; };
+		923AFAB71F57E0460059E210 /* iOS8SampleSmokeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923AFAB61F57E0460059E210 /* iOS8SampleSmokeTest.swift */; };
 		96293f720cc25ccdfe112ea0 /* TTMHealthKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D244319BCD3020005B633 /* TTMHealthKitHelper.m */; };
 		9652a5bf926a243033d0748b /* UserNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A308E2319BDADB9007C7315 /* UserNotificationViewController.xib */; };
 		9b7506991bed4b4eb8ebed08 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7B7B419A1981E00E0C6EB /* SVProgressHUD.m */; };
@@ -494,6 +497,9 @@
 		92061F611E446B290070FD04 /* iOS8SamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92061F631E446B290070FD04 /* iOS8SamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SamplerUITests.swift; sourceTree = "<group>"; };
 		92061F651E446B290070FD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923AFAB21F567DAD0059E210 /* MainMenuOptionsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuOptionsHelper.swift; sourceTree = "<group>"; };
+		923AFAB41F57C4570059E210 /* TestWaitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWaitHelper.swift; sourceTree = "<group>"; };
+		923AFAB61F57E0460059E210 /* iOS8SampleSmokeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SampleSmokeTest.swift; sourceTree = "<group>"; };
 		928F95031A396C290072E0EB /* iOS8SamplerSimulator-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8SamplerSimulator-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		e4bda8bcc5ddd47391f0a5cd /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 		ecf6a5589a4ca36534247aa7 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -1110,10 +1116,21 @@
 		92061F621E446B290070FD04 /* iOS8SamplerUITests */ = {
 			isa = PBXGroup;
 			children = (
+				923AFAAF1F567C1D0059E210 /* Helpers */,
 				92061F631E446B290070FD04 /* iOS8SamplerUITests.swift */,
 				92061F651E446B290070FD04 /* Info.plist */,
+				923AFAB61F57E0460059E210 /* iOS8SampleSmokeTest.swift */,
 			);
 			path = iOS8SamplerUITests;
+			sourceTree = "<group>";
+		};
+		923AFAAF1F567C1D0059E210 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				923AFAB21F567DAD0059E210 /* MainMenuOptionsHelper.swift */,
+				923AFAB41F57C4570059E210 /* TestWaitHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1239,6 +1256,7 @@
 					};
 					92061F601E446B290070FD04 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UFLNVM35T6;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8AA4B9F019A175F4006BC800;
 					};
@@ -1571,6 +1589,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923AFAB71F57E0460059E210 /* iOS8SampleSmokeTest.swift in Sources */,
+				923AFAB51F57C4570059E210 /* TestWaitHelper.swift in Sources */,
+				923AFAB31F567DAD0059E210 /* MainMenuOptionsHelper.swift in Sources */,
 				92061F641E446B290070FD04 /* iOS8SamplerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1664,6 +1685,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1690,6 +1712,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iOS8Sampler/entitlements.plist;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1892,10 +1915,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UFLNVM35T6;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = iOS8SamplerUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hello.iOS8SamplerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1915,9 +1939,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UFLNVM35T6;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = iOS8SamplerUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hello.iOS8SamplerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1937,7 +1962,7 @@
 				25f65f605954e88e267aa057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8A8D0CA619C9A034009E3448 /* Build configuration list for PBXNativeTarget "iOS8SamplerSimulator" */ = {
 			isa = XCConfigurationList;
@@ -1946,7 +1971,7 @@
 				8A8D0CA819C9A034009E3448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8AA4B9EC19A175F4006BC800 /* Build configuration list for PBXProject "iOS8Sampler" */ = {
 			isa = XCConfigurationList;
@@ -1955,7 +1980,7 @@
 				8AA4BA1319A175F5006BC800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8AA4BA1419A175F5006BC800 /* Build configuration list for PBXNativeTarget "iOS8Sampler" */ = {
 			isa = XCConfigurationList;
@@ -1964,7 +1989,7 @@
 				8AA4BA1619A175F5006BC800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8AA4BA1719A175F5006BC800 /* Build configuration list for PBXNativeTarget "iOS8SamplerTests" */ = {
 			isa = XCConfigurationList;
@@ -1973,7 +1998,7 @@
 				8AA4BA1919A175F5006BC800 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		92061F6A1E446B290070FD04 /* Build configuration list for PBXNativeTarget "iOS8SamplerUITests" */ = {
 			isa = XCConfigurationList;
@@ -1982,6 +2007,7 @@
 				92061F691E446B290070FD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

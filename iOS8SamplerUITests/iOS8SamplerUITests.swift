@@ -35,58 +35,90 @@ class iOS8SamplerUITests: XCTestCase {
     }
     
     func testValidate() {
-        _ = XCUIApplication()
-        XCUIApplication().tables.staticTexts["Demo using a data buffer to set uniforms for the vertex and fragment shaders."].tap()
+        application.staticTexts["Invoke Touch ID verification using LocalAuthentication framework."].swipeUp()
         
+        application.tapMenuStaticText(.metalUniformStream)
+        application.navigationBars["Metal Uniform Stream"].buttons["iOS8 Sampler"].tap()
     }
 
+    func testBoth()   {
+        
+        application.tapMenuStaticText(.audioEffects)
+        application.navigationBars["Audio Effects"].buttons["iOS8 Sampler"].tap()
 
-//    func testa() {
-//    let app = XCUIApplication()
-//    app.tables.staticTexts["New filters of CIFilter such as CIGrassDistortion, CIDivideBlendMode, ..."].tap()
-//    app.navigationBars["New Image Filters"].buttons["iOS8 Sampler"].tap()
-//
-//  }
-//    func testAppb() {
-//    let app = XCUIApplication()
-//    app.tables.staticTexts["Distortion and Delay effect for audio using AVAudioEngine."].tap()
-//    app.navigationBars["Audio Effects"].buttons["iOS8 Sampler"].tap()
-//  }
-//    
-//    func testAppc() {
-//        let app = XCUIApplication()
-//        app.tables.staticTexts["Custom CIFilter examples using CIKernel."].tap()
-//        app.navigationBars["CustomFilters"].buttons["iOS8 Sampler"].tap()
-//    }
+        application.tapMenuStaticText(.newImageFilters)
+        application.navigationBars["New Image Filters"].buttons["iOS8 Sampler"].tap()
+        
+        application.tapMenuStaticText(.customFilters)
+        application.navigationBars["CustomFilters"].buttons["iOS8 Sampler"].tap()
+
+        application.tapMenuStaticText(.metalUniformStream)
+        application.navigationBars["Metal Uniform Stream"].buttons["iOS8 Sampler"].tap()
+
+        application.tapMenuStaticText(.sceneKit)
+        application.navigationBars["SceneKit"].buttons["iOS8 Sampler"].tap()
+        
+        application.tapMenuStaticText(.touchId)
+        application.navigationBars["Touch ID"].buttons["iOS8 Sampler"].tap()
+        
+        application.tapMenuStaticText(.metalBasic)
+        application.navigationBars["Metal Basic"].buttons["iOS8 Sampler"].tap()
+        
+        application.staticTexts["Invoke Touch ID verification using LocalAuthentication framework."].swipeUp()
+        
+        application.tapMenuStaticText(.webKit)
+        application.navigationBars["WebKit"].buttons["iOS8 Sampler"].tap()
+        
+        application.tapMenuStaticText(.pedometer)
+        application.navigationBars["Pedometer"].buttons["iOS8 Sampler"].tap()
+    }
     
-    func testAll() {
-        let app = XCUIApplication()
-        let tablesQuery = app.tables
+    func testSecond() {
         
-        app.tables.staticTexts["Distortion and Delay effect for audio using AVAudioEngine."].tap()
-        app.navigationBars["Audio Effects"].buttons["iOS8 Sampler"].tap()
-        app.tables.staticTexts["New filters of CIFilter such as CIGrassDistortion, CIDivideBlendMode, ..."].tap()
-        app.navigationBars["New Image Filters"].buttons["iOS8 Sampler"].tap()
-        tablesQuery.staticTexts["CustomFilters"].tap()
-        app.navigationBars["CustomFilters"].buttons["iOS8 Sampler"].tap()
-        tablesQuery.staticTexts["Demo using a data buffer to set uniforms for the vertex and fragment shaders."].tap()
-        app.navigationBars["Metal Uniform Stream"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
-        tablesQuery.staticTexts["SceneKit"].tap()
-        app.navigationBars["SceneKit"].buttons["iOS8 Sampler"].tap()
-        //tablesQuery.staticTexts["HealthKit"].tap()
-        //app.navigationBars["HealthKit"].buttons["iOS8 Sampler"].tap()
-        tablesQuery.staticTexts["Touch ID"].tap()
-        app.navigationBars["Touch ID"].buttons["iOS8 Sampler"].tap()
-        tablesQuery.staticTexts["Metal Basic"].tap()
-        app.navigationBars["Metal Basic"].buttons["iOS8 Sampler"].tap()
-        tablesQuery.staticTexts["Invoke Touch ID verification using LocalAuthentication framework."].swipeUp()
-        tablesQuery.staticTexts["WebKit"].tap()
-        app.navigationBars["WebKit"].buttons["iOS8 Sampler"].tap()
-//        tablesQuery.staticTexts["Browsing Example using WKWebView"].swipeUp()
-//        tablesQuery.staticTexts["Pedometer"].tap()
-//        app.navigationBars["Pedometer"].buttons["iOS8 Sampler"].tap()
+        self.waitForElementToAppear(application.staticTexts["Ruby Annotation"])
+        application.tapMenuStaticText(.rubyAnotation)
+        application.navigationBars["Ruby Annotation"].buttons["CODE"].tap()
+        sleep(5)
+//        self.waitForElementToAppear(application.navigationBars["RubyAnnotationViewController"])
+        application.navigationBars["RubyAnnotationViewController"].tap()
+        application.buttons["Ruby Annotation"].tap()
+        application.navigationBars["Ruby Annotation"].buttons["iOS8 Sampler"].tap()
     }
+
+    func testThird() {
+        let application = XCUIApplication()
+        let tablesQuery = application.tables
+        
+        tablesQuery.staticTexts["UIAlertController"].tap()
+        application.buttons["ActionSheet"].tap()
+        application.buttons["Alert"].tap()
+        application.buttons["ALERT"].tap()
+//        app.alerts["TITLE"].buttons["CANCEL"].tap()
+        application.alerts["TITLE"].typeText("Pendejo")
+        application.buttons["CANCEL"].tap()
+        application.navigationBars["UIAlertController"].buttons["CODE"].tap()
+//        sleep(8)
+        self.waitForElementToAppear(application.navigationBars["AlertViewController"])
+        
+        application.buttons["UIAlertController"].tap()
+        self.waitForElementToAppear(application.staticTexts["UIAlertController"])
+//        application.navigationBars["AlertViewController"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+//        sleep(2)
+//        self.waitForElementToAppear(application.navigationBars["UIAlertController"])
+//        application.navigationBars["UIAlertController"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+    }
+    
+    func testFour() {
+        let application = XCUIApplication()
+    
+    application.tables.staticTexts["New filters of CIFilter such as CIGrassDistortion, CIDivideBlendMode, ..."].tap()
+    application.pickerWheels["Original"].swipeUp()
+        
+    }
+    
 }
+
+
 
 
 

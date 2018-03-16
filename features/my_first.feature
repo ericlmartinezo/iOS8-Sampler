@@ -16,7 +16,7 @@ Scenario: Example steps 1
   And I wait for 2 seconds
   Then I press "Popover"
   And I wait for 2 seconds
-  Then I press "Back"
+  Then I press "iOS8 Sampler"
   And I wait for 2 seconds
   Then I should scroll up to see "Audio Effects"
   And I should see "Audio Effects"
